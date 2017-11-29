@@ -20,9 +20,12 @@
 //logging
 #include "log.hpp"
 //include OpenCV 
-#include "opencv/cv.h"
-#include "opencv/highgui.h"
-#include "opencv/cxcore.h"
+/* #include "opencv2/cv.h" */
+/* #include "opencv2/highgui.h" */
+/* #include "opencv2/cxcore.h" */
+#include "opencv2/core.hpp"
+#include <opencv2/opencv.hpp>
+
 
 using namespace std;
 using namespace cv;
